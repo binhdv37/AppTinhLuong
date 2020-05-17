@@ -8,7 +8,7 @@ public class NhanVienPartTime extends NhanVien{
 
     @Override
     public String loaiNhanVien(){
-        return "Nhan vien part time";
+        return "Nhân viên parttime";
     }
 
     public void tinhLuong(){

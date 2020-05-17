@@ -18,8 +18,8 @@ public class NhanVien {
     }
 
     public void xuatThongTin(){
-        System.out.println("---------nhan vien : "+ten +"-----------");
-        System.out.println("loai nhan vien : "+loaiNhanVien());
-        System.out.println("luong : "+luong);
+        System.out.println("---------Nhân viên : "+ten +"-----------");
+        System.out.println("Loại nhân viên : "+loaiNhanVien());
+        System.out.println("Lương : "+luong);
     }
 }

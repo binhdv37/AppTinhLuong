@@ -11,8 +11,8 @@ public class NhanVienFullTime extends NhanVien{
 
 
     public String loaiNhanVien(){
-        if(loaiChucVu==Configs.NHAN_VIEN_SEP)return "nhan vien full time sep";
-        else return "nhan vien full time linh";
+        if(loaiChucVu==Configs.NHAN_VIEN_SEP)return "Nhân viên fulltime sếp";
+        else return "Nhân viên fulltime lính";
     }
 
     public void tinhLuong(){
