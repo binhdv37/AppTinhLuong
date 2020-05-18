@@ -1,4 +1,4 @@
-public class NhanVien {
+public abstract class NhanVien {
     protected String ten;
     protected long luong;
 
@@ -9,13 +9,9 @@ public class NhanVien {
         this.ten = ten;
     }
 
-    protected String loaiNhanVien(){
-        return "";
-    }
+    protected abstract String loaiNhanVien();
 
-    public void tinhLuong(){
-        //child class must override
-    }
+    public abstract void tinhLuong();
 
     public void xuatThongTin(){
         System.out.println("---------Nhân viên : "+ten +"-----------");
